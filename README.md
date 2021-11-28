@@ -1,6 +1,6 @@
 # Probabilistic modeling and analysis
 
-This repository implements and explores state-of-the-art algorithms for probabilistic modeling and analysis of (complex) systems. Its main purpose is knowledge dissemination in the form of toolboxes and Jupyter notebooks. The links below display the notebooks via [nbviewer](https://nbviewer.jupyter.org/) to ensure a proper rendering of the formulas. Part of the material links to a repository I developed during my PhD study at Aalborg University, but the material in this repo will continuously be updated. 
+This repository implements and explores state-of-the-art algorithms for probabilistic modeling and analysis of (complex) systems. Its main purpose is knowledge dissemination in the form of toolboxes and Jupyter notebooks. In this regard, the links below display the notebooks via [nbviewer](https://nbviewer.jupyter.org/) to ensure a proper rendering of the formulas. Part of the material links to a repository I developed during my PhD study at Aalborg University, but the material in this repo will continuously be updated. 
 
 ## Bayesian networks
 
