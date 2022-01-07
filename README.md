@@ -90,6 +90,8 @@ The following tutorials are implemented in Python;
 
 - [Stochastic algorithms for unconstrained, continuous-valued optimization](https://nbviewer.jupyter.org/github/SebastianGlavind/PhD-study/blob/master/Optimization/Optimization_stoch_con_uncon.ipynb). This tutorial considers set of stochastic optimization algorithms, including population methods, for unconstrained, continuous-valued optimization. The algorithms covered are stochastic gradient decent, stochastic hill-climbing, simulated annealing, genetic algorithms, and particle swarm optimization.
 
+- [Bayesian optimization using a Gaussian process prior](https://nbviewer.jupyter.org/github/SebastianGlavind/Probabilistic_modeling_and_analysis/tree/main/Optimization.ipynb). This tutorial shows how to perform Bayesian optimization using a Gaussian process prior for unconstrained, continuous-valued optimization. The tutorial make use of some of the capabilities of the open source software package [`GPy`](https://sheffieldml.github.io/GPy/) for parameter learning in both a maximum likelihood setting and a Bayesian setting.
+
 ## Sensitivity analysis and feature selection
 
 The following tutorials are implemented in Python;
