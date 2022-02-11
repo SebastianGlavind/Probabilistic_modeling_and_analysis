@@ -82,6 +82,10 @@ The following tutorials are implemented in Python;
 
 - [EM for Gaussian mixtures](https://nbviewer.jupyter.org/github/SebastianGlavind/PhD-study/blob/master/Gaussian-mixtures/exEM_GMMs.ipynb). This tutorial considers how Gaussian mixture models may be used for cluster analysis; it implements the expectation maximization (EM) learning algorithm, and introduces the evidence lower bound, as well as the Bayesian information criterion (BIC) and the integrated complete-data likelihood (ICL), for model selection.
 
+## Time series analysis
+
+COMMING SOON
+
 ## Algorithms for optimization
 
 The following tutorials are implemented in Python;
@@ -91,6 +95,10 @@ The following tutorials are implemented in Python;
 - [Stochastic algorithms for unconstrained, continuous-valued optimization](https://nbviewer.jupyter.org/github/SebastianGlavind/PhD-study/blob/master/Optimization/Optimization_stoch_con_uncon.ipynb). This tutorial considers set of stochastic optimization algorithms, including population methods, for unconstrained, continuous-valued optimization. The algorithms covered are stochastic gradient decent, stochastic hill-climbing, simulated annealing, genetic algorithms, and particle swarm optimization.
 
 - [Bayesian optimization using a Gaussian process prior](https://nbviewer.jupyter.org/github/SebastianGlavind/Probabilistic_modeling_and_analysis/blob/main/Optimization/GaussianProcessOptimization.ipynb). This tutorial shows how to perform Bayesian optimization using a Gaussian process prior for unconstrained, continuous-valued optimization. The tutorial make use of some of the capabilities of the open source software package [`GPy`](https://sheffieldml.github.io/GPy/) for parameter learning in both a maximum likelihood setting and a Bayesian setting.
+
+## Approximate inference
+
+COMMING SOON
 
 ## Sensitivity analysis and feature selection
 
@@ -107,12 +115,12 @@ The following tutorials are implemented in Python;
 - Bayesian optimization using a Gaussian process prior for hyperparameter tuning, see the tutorials described above on [*Gradient boosting regression using XGBoost*](https://nbviewer.jupyter.org/github/SebastianGlavind/PhD-study/blob/master/Gradient-boosting/GBMReg_BostonHousing.ipynb) and [*Gradient boosting classification using XGBoost*](https://nbviewer.jupyter.org/github/SebastianGlavind/PhD-study/blob/master/Gradient-boosting/GBMClas_Wine.ipynb), respectively.
 
 ## References
-***
+<!-- *** -->
 Sebastian T. Glavind and Michael H. Faber, “A framework for offshore load environment modeling”, in proceedings of the ASME 2018 37th International Conference on Ocean, Offshore and Arctic Engineering (OMAE2018), OMAE2018-77674, 2018.
 
 Sebastian T. Glavind and Michael H. Faber, “A framework for offshore load environment modeling”, Journal of Offshore Mechanics and Arctic Engineering, vol. 142, no. 2,
 pp. 021702, OMAE-19-1059, 2020.
 
 Sebastian T. Glavind, Henning Brüske and Michael H. Faber, “On normalized fatigue crack growth modeling”, in proceedings of the ASME 2020 39th International Conference on Ocean, Offshore and Arctic Engineering (OMAE2020), OMAE2020-18613, 2020.
-***
+<!-- *** -->
 
