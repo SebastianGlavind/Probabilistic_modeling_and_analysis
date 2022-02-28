@@ -82,9 +82,11 @@ The following tutorials are implemented in Python;
 
 - [EM for Gaussian mixtures](https://nbviewer.jupyter.org/github/SebastianGlavind/PhD-study/blob/master/Gaussian-mixtures/exEM_GMMs.ipynb). This tutorial considers how Gaussian mixture models may be used for cluster analysis; it implements the expectation maximization (EM) learning algorithm, and introduces the evidence lower bound, as well as the Bayesian information criterion (BIC) and the integrated complete-data likelihood (ICL), for model selection.
 
-## Time series analysis
+## State space models
 
-COMMING SOON
+The following tutorials are implemented in Python and R;
+
+- [Linear Gaussian state space models and Kalman filters](https://nbviewer.jupyter.org/github/SebastianGlavind/Probabilistic_modeling_and_analysis/blob/main/State-space-models/SSMs_linearGaussian_Ex_MassSpringSys.ipynb). This Python tutorial implements the Kalman filtering and smooting equations for Linear Gaussian state space models, and it shows how to learn the parameters of such systems using maximum likelihood and Bayesian inference based on data from a simple mass-spring system.
 
 ## Algorithms for optimization
 
