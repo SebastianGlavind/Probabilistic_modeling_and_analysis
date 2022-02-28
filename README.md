@@ -88,7 +88,7 @@ The following tutorials are implemented in Python and R;
 
 ### Toolboxes
 
-- [Dynamic linear modeling tools (DLMtools)](https://github.com/SebastianGlavind/Probabilistic_modeling_and_analysis/blob/main/State-space-models/DLMtools.py). The Python toolbox collects the methods and algorithms used in the tutorials, and this [notebook](https://nbviewer.jupyter.org/github/SebastianGlavind/Probabilistic_modeling_and_analysis/blob/main/State-space-models/SSMs_linearGaussian_Ex_MassSpringSys_testTB.ipynb) shows how we can use the toolbox to solve one of the examples in my tutorial on [Linear Gaussian state space models and Kalman filters](https://nbviewer.jupyter.org/github/SebastianGlavind/Probabilistic_modeling_and_analysis/blob/main/State-space-models/SSMs_linearGaussian_Ex_MassSpringSys.ipynb).
+- [Dynamic linear modeling tools (DLMtools)](https://github.com/SebastianGlavind/Probabilistic_modeling_and_analysis/blob/main/State-space-models/DLMtools.py). The Python toolbox collects the methods and algorithms used in the tutorials, and this [notebook](https://github.com/SebastianGlavind/Probabilistic_modeling_and_analysis/blob/main/State-space-models/SSMs_linearGaussian_Ex_MassSpringSys_testTB.ipynb) shows how we can use the toolbox to solve one of the examples in my tutorial on [Linear Gaussian state space models and Kalman filters](https://nbviewer.jupyter.org/github/SebastianGlavind/Probabilistic_modeling_and_analysis/blob/main/State-space-models/SSMs_linearGaussian_Ex_MassSpringSys.ipynb).
 
 ### Tutorials
 
