@@ -92,7 +92,7 @@ The following tutorials are implemented in Python and R;
 
 ### Tutorials
 
-- [Linear Gaussian state space models and Kalman filters](https://nbviewer.jupyter.org/github/SebastianGlavind/Probabilistic_modeling_and_analysis/blob/main/State-space-models/SSMs_linearGaussian_Ex_MassSpringSys.ipynb). This Python tutorial implements the Kalman filtering and smooting equations for Linear Gaussian state space models. Furthermore, the tutorial shows how to learn the parameters of such systems using maximum likelihood and Bayesian inference based on data (accelerations) from simple mass-spring systems.
+- [Linear Gaussian state space models and Kalman filters](https://nbviewer.jupyter.org/github/SebastianGlavind/Probabilistic_modeling_and_analysis/blob/main/State-space-models/SSMs_linearGaussian_Ex_MassSpringSys.ipynb). This Python tutorial implements the Kalman filtering and smooting equations for Linear Gaussian state space models. Furthermore, the tutorial shows how to learn the parameters of such systems using maximum likelihood and Bayesian inference based on data (accelerations) from simple mass-spring systems. Finally, this R [notebook](https://github.com/SebastianGlavind/Probabilistic_modeling_and_analysis/blob/main/State-space-models/SSMs_linearGaussian_Ex_MassSpringSys_R_dlm.ipynb) shows how one of the examples can be solved using the R package `dlm`.
 
 ## Algorithms for optimization
 
