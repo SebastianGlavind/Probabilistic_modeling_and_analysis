@@ -88,7 +88,7 @@ The following tutorials are implemented in Python and R;
 
 ### Toolboxes
 
-- [Dynamic linear modeling tools (DLMtools)](https://github.com/SebastianGlavind/Probabilistic_modeling_and_analysis/blob/main/State-space-models/DLMtools.py). The Python toolbox collects the methods and algorithms used in the tutorials, and this [notebook](https://github.com/SebastianGlavind/Probabilistic_modeling_and_analysis/blob/main/State-space-models/SSMs_linearGaussian_Ex_MassSpringSys_testTB.ipynb) shows how we can use the toolbox to solve one of the examples in my tutorial on [Linear Gaussian state space models and Kalman filters](https://nbviewer.jupyter.org/github/SebastianGlavind/Probabilistic_modeling_and_analysis/blob/main/State-space-models/SSMs_linearGaussian_Ex_MassSpringSys.ipynb).
+- [Dynamic linear modeling tools (DLMtools)](https://github.com/SebastianGlavind/Probabilistic_modeling_and_analysis/blob/main/State-space-models/DLMtools.py). The Python toolbox collects the methods and algorithms used in the tutorials. Furthermore, this [notebook](https://github.com/SebastianGlavind/Probabilistic_modeling_and_analysis/blob/main/State-space-models/SSMs_linearGaussian_Ex_MassSpringSys_testTB.ipynb) shows how we can use the toolbox to solve one of the examples in my tutorial on [Linear Gaussian state space models and Kalman filters](https://nbviewer.jupyter.org/github/SebastianGlavind/Probabilistic_modeling_and_analysis/blob/main/State-space-models/SSMs_linearGaussian_Ex_MassSpringSys.ipynb), and this [notebook](https://github.com/SebastianGlavind/Probabilistic_modeling_and_analysis/blob/main/State-space-models/SSMs_linearGaussian_Ex6_5.ipynb) shows how to solve an example from Shumway & Stoffer (2017).
 
 ### Tutorials
 
@@ -124,11 +124,13 @@ The following tutorials are implemented in Python;
 
 ## References
 <!-- *** -->
-Sebastian T. Glavind and Michael H. Faber, “A framework for offshore load environment modeling”, in proceedings of the ASME 2018 37th International Conference on Ocean, Offshore and Arctic Engineering (OMAE2018), OMAE2018-77674, 2018.
+Sebastian T. Glavind, Henning Brüske and Michael H. Faber, “On normalized fatigue crack growth modeling”, in proceedings of the ASME 2020 39th International Conference on Ocean, Offshore and Arctic Engineering (OMAE2020), OMAE2020-18613, 2020.
 
 Sebastian T. Glavind and Michael H. Faber, “A framework for offshore load environment modeling”, Journal of Offshore Mechanics and Arctic Engineering, vol. 142, no. 2,
 pp. 021702, OMAE-19-1059, 2020.
 
-Sebastian T. Glavind, Henning Brüske and Michael H. Faber, “On normalized fatigue crack growth modeling”, in proceedings of the ASME 2020 39th International Conference on Ocean, Offshore and Arctic Engineering (OMAE2020), OMAE2020-18613, 2020.
+Sebastian T. Glavind and Michael H. Faber, “A framework for offshore load environment modeling”, in proceedings of the ASME 2018 37th International Conference on Ocean, Offshore and Arctic Engineering (OMAE2018), OMAE2018-77674, 2018.
+
+Shumway, R. H. & Stoffer, D. S. (2017). Time series analysis and its applications, Springer.
 <!-- *** -->
 
