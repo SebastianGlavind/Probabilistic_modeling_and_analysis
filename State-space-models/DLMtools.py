@@ -7,14 +7,14 @@ import numpy as np
 # Kalman Filter - Time invariant model without inputs
 # See Shumway & Stoffer (2017), ch. 6.
 # https://rdrr.io/cran/astsa/src/R/Kfilter0.R
-def myKalmanFiler0(y, # data np.array
-                   cQ, cR, 
-                   mu0 = np.asarray([30,20]), #first estimate 
-                   Sigma0 = np.array([[1,0],[0,1]]), 
-                   A = np.asarray([[1,0],[0,1]]), #Observation matrix. We want every state from our state vector.
-                   Phi = np.array([[1,1],[0,1]]), #Transition matrix. Displacement is updated with prev disp + curr vel while velocity is updated with prev vel (assuming no acc.) 
-                   fullOut = 0, # provide denerated quantities as well as predictions/filtering [0 - False; 1 - True]
-                  ):
+def myKalmanFilter0(y, # data np.array
+                    cQ, cR, 
+                    mu0 = np.asarray([30,20]), #first estimate 
+                    Sigma0 = np.array([[1,0],[0,1]]), 
+                    A = np.asarray([[1,0],[0,1]]), #Observation matrix. We want every state from our state vector.
+                    Phi = np.array([[1,1],[0,1]]), #Transition matrix. Displacement is updated with prev disp + curr vel while velocity is updated with prev vel (assuming no acc.) 
+                    fullOut = 0, # provide denerated quantities as well as predictions/filtering [0 - False; 1 - True]
+                   ):
     N, M = y.shape
     Q = cQ @ (cQ.T) # cholesky decomp: cQ=chol(Q), cR=chol(R)
     R = cR @ (cR.T)
@@ -63,9 +63,9 @@ def myKalmanSmoother0(y, # data np.array
     N, M = y.shape
     # Kalman filering
     if (fullOut == 1):
-        xp, Pp, xf, Pf, negLogLike, K = myKalmanFiler0(y, cQ, cR, mu0, Sigma0, A, Phi, fullOut) # Call to kalman filter function
+        xp, Pp, xf, Pf, negLogLike, K = myKalmanFilter0(y, cQ, cR, mu0, Sigma0, A, Phi, fullOut) # Call to kalman filter function
     else:
-        xp, Pp, xf, Pf, negLogLike = myKalmanFiler0(y, cQ, cR, mu0, Sigma0, A, Phi) # Call to kalman filter function
+        xp, Pp, xf, Pf, negLogLike = myKalmanFilter0(y, cQ, cR, mu0, Sigma0, A, Phi) # Call to kalman filter function
     # Kalman smoothing
     xs = [None]*N # xs=x_t^n
     Ps = [None]*N # Ps=P_t^n
@@ -109,7 +109,7 @@ def myFFBS(y, # data np.array
     N, M = y.shape
     D = mu0.shape[0]
     # Kalman filering
-    xp, Pp, xf, Pf, _ = myKalmanFiler0(y, cQ, cR, mu0, Sigma0, A, Phi) # Call to kalman filter function
+    xp, Pp, xf, Pf, _ = myKalmanFilter0(y, cQ, cR, mu0, Sigma0, A, Phi) # Call to kalman filter function
     # Backward sampling
     xb = [None]*N # xb=x_t^n
     jitter = np.eye(D) * 1e-8
