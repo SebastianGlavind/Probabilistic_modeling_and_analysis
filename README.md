@@ -1,6 +1,6 @@
 # Probabilistic modeling and analysis
 
-This repository implements and explores state-of-the-art algorithms for probabilistic modeling and analysis of (complex) systems. Its main purpose is knowledge dissemination in the form of toolboxes and Jupyter notebooks. In this regard, the links below display the notebooks via [nbviewer](https://nbviewer.jupyter.org/) to ensure a proper rendering of the formulas. Part of the material links to a repository I developed during my PhD study at Aalborg University, but the material in this repo will continuously be updated. 
+This repository implements and explores state-of-the-art algorithms for probabilistic modeling and analysis of (complex) systems, which are founded in fields like statistics, machine learning, and artificial inteligence. Its main purpose is knowledge dissemination in the form of toolboxes and Jupyter notebooks. In this regard, the links below display the notebooks via [nbviewer](https://nbviewer.jupyter.org/) to ensure a proper rendering of the formulas. Note that parts of the material links to a repository I developed during my PhD study at Aalborg University, but the material in this repo will continuously be updated. 
 
 ## Bayesian networks
 
@@ -93,6 +93,8 @@ The following tutorials are implemented in Python and R;
 ### Tutorials
 
 - [Linear Gaussian state space models and Kalman filters](https://nbviewer.jupyter.org/github/SebastianGlavind/Probabilistic_modeling_and_analysis/blob/main/State-space-models/SSMs_linearGaussian_Ex_MassSpringSys.ipynb). This Python tutorial implements the Kalman filtering and smooting equations for Linear Gaussian state space models. Furthermore, the tutorial shows how to learn the parameters of such systems using maximum likelihood and Bayesian inference based on data (accelerations) from simple mass-spring systems. Finally, this R [notebook](https://github.com/SebastianGlavind/Probabilistic_modeling_and_analysis/blob/main/State-space-models/SSMs_linearGaussian_Ex_MassSpringSys_R_dlm.ipynb) shows how one of the examples can be solved using the R package `dlm`.
+
+- [Model uncertainty in Linear Gaussian state space models](https://nbviewer.jupyter.org/github/SebastianGlavind/Probabilistic_modeling_and_analysis/blob/main/State-space-models/SSMs_linearGaussian_Ex_MassSpringSys_ModUnc.ipynb). This Python tutorial consideres the mass-spring-damper system from my tutorial [Linear Gaussian state space models and Kalman filters](https://nbviewer.jupyter.org/github/SebastianGlavind/Probabilistic_modeling_and_analysis/blob/main/State-space-models/SSMs_linearGaussian_Ex_MassSpringSys.ipynb). For this system, it shows how we may accound for uncertainty in the system representation itself and the loading using Monte Carlo simulation and Bayesian inference.
 
 ## Algorithms for optimization
 
