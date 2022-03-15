@@ -108,7 +108,9 @@ The following tutorials are implemented in Python;
 
 ## Approximate inference
 
-COMMING SOON
+The following tutorials are implemented in Python;
+
+- [Hamiltonian Monte carlo - a basic tutorial](https://nbviewer.jupyter.org/github/SebastianGlavind/Probabilistic_modeling_and_analysis/blob/main/Approximate-inference/HMC.ipynb). This tutorial introduces the ideas behind the Hamiltonian Monte Carlo alogrithm and implement some basic variants of the algorithm, which are showcased in a linear regression setting.
 
 ## Sensitivity analysis and feature selection
 
