@@ -36,7 +36,7 @@ The toolboxes are among others used in Glavind and Faber (2018), and Glavind and
 
 The following tutorials are implemented in Python;
 
-- [Linear regression](https://nbviewer.jupyter.org/github/SebastianGlavind/Probabilistic_modeling_and_analysis/blob/main/Optimization/GaussianProcessOptimization.ipynb). This tutorial introduces linear regression; first, from a maximum likelihood estimation (MLE) perspective, and second, from a Bayesian perspective. In both cases, the tutorial implements a selection of different learning algorithms. 
+- [Linear regression](https://nbviewer.jupyter.org/github/SebastianGlavind/Probabilistic_modeling_and_analysis/blob/main/Linear-regression/LinReg.ipynb). This tutorial introduces linear regression; first, from a maximum likelihood estimation (MLE) perspective, and second, from a Bayesian perspective. In both cases, the tutorial implements a selection of different learning algorithms. 
 
 - [Linear regression - assumptions and interpretations](https://nbviewer.jupyter.org/github/SebastianGlavind/PhD-study/blob/master/Linear-regression/LinReg_assumptionsEtc.ipynb). This notebook considers and assesses the underlaying assumptions of linear regression in detail and discusses the interpretation of these models. 
 
