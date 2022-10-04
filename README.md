@@ -44,6 +44,12 @@ The following tutorials are implemented in Python;
 
 - [EM for Bayesian linear regression](https://nbviewer.jupyter.org/github/SebastianGlavind/PhD-study/blob/master/Linear-regression/exEM_BayesLinReg.ipynb). This tutorial considers how the expectation maximization (EM) algorithm may be used to learn a parameter setting for a Bayesian linear regression model.
 
+## Logistic regression
+
+The following tutorials are implemented in Python;
+
+- [Binary logistic regression](https://nbviewer.jupyter.org/github/SebastianGlavind/Probabilistic_modeling_and_analysis/blob/main/Logistic-regression/LogReg_Bin.ipynb). This tutorial introduces binary logistic regression from a maximum likelihood estimation (MLE) perspective and shows how to include regularization in the estimation to reduce overfitting.
+
 ## Bayesian hierarchical models
 
 The following tutorials are implemented in Python;
