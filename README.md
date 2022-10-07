@@ -88,7 +88,7 @@ The following tutorials are implemented in Python;
 
 # Unsupervised learning
 
-## Gaussian mixture models
+## K-means clustering
 
 The following tutorials are implemented in Python;
 
