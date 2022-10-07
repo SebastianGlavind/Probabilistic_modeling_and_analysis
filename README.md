@@ -92,6 +92,12 @@ The following tutorials are implemented in Python;
 
 The following tutorials are implemented in Python;
 
+- [K-means algorithm](https://nbviewer.jupyter.org/github/SebastianGlavind/Probabilistic_modeling_and_analysis/blob/main/Kmeans/Kmeans.ipynb). This tutorial considers how the K-means algorithm may be used to find a given number latent clusters in a data set, as well as how to choose an appropriate number of clusters to consider for the data set.
+
+## Gaussian mixture models
+
+The following tutorials are implemented in Python;
+
 - [EM for Gaussian mixtures](https://nbviewer.jupyter.org/github/SebastianGlavind/PhD-study/blob/master/Gaussian-mixtures/exEM_GMMs.ipynb). This tutorial considers how Gaussian mixture models may be used for cluster analysis; it implements the expectation maximization (EM) learning algorithm, and introduces the evidence lower bound, as well as the Bayesian information criterion (BIC) and the integrated complete-data likelihood (ICL), for model selection.
 
 # Time series models
