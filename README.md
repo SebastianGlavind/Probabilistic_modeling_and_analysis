@@ -1,6 +1,32 @@
-# Probabilistic modeling and analysis
+# PROBABILISTIC MODELING AND ANALYSIS
 
 This repository implements and explores state-of-the-art algorithms for probabilistic modeling and analysis of (complex) systems, which are founded in fields like statistics, machine learning, and artificial inteligence. Its main purpose is knowledge dissemination in the form of toolboxes and Jupyter notebooks. In this regard, the links below display the notebooks via [nbviewer](https://nbviewer.jupyter.org/) to ensure a proper rendering of the formulas. Note that parts of the material links to a repository I developed during my PhD study at Aalborg University, but the material in this repo will continuously be updated. 
+
+# Supervised learning
+
+## Linear regression
+
+The following tutorials are implemented in Python;
+
+- [Linear regression](https://nbviewer.jupyter.org/github/SebastianGlavind/Probabilistic_modeling_and_analysis/blob/main/Linear-regression/LinReg.ipynb). This tutorial introduces linear regression; first, from a maximum likelihood estimation (MLE) perspective, and second, from a Bayesian perspective. In both cases, the tutorial implements a selection of different learning algorithms. 
+
+- [Linear regression - assumptions and interpretations](https://nbviewer.jupyter.org/github/SebastianGlavind/PhD-study/blob/master/Linear-regression/LinReg_assumptionsEtc.ipynb). This notebook considers and assesses the underlaying assumptions of linear regression in detail and discusses the interpretation of these models. 
+
+- [Bayesian linear regression with Stan](https://nbviewer.jupyter.org/github/SebastianGlavind/PhD-study/blob/master/Linear-regression/exStan_BayesLinReg.ipynb). This tutorial shows how to implement Bayesian linear regression models using the probabilistic programming language [Stan](https://mc-stan.org/). 
+
+- [EM for Bayesian linear regression](https://nbviewer.jupyter.org/github/SebastianGlavind/PhD-study/blob/master/Linear-regression/exEM_BayesLinReg.ipynb). This tutorial considers how the expectation maximization (EM) algorithm may be used to learn a parameter setting for a Bayesian linear regression model.
+
+## Logistic regression
+
+The following tutorials are implemented in Python;
+
+- [Binary logistic regression](https://nbviewer.jupyter.org/github/SebastianGlavind/Probabilistic_modeling_and_analysis/blob/main/Logistic-regression/LogReg_Bin.ipynb). This tutorial introduces binary logistic regression from a maximum likelihood estimation (MLE) perspective and shows how to include regularization in the estimation to reduce overfitting.
+
+## Bayesian hierarchical models
+
+The following tutorials are implemented in Python;
+
+- [Bayesian hierarchical models with Stan](https://nbviewer.jupyter.org/github/SebastianGlavind/PhD-study/blob/master/Hierarchical-models/HierModel_OMAE2020.ipynb). This tutorial introduces how to implement Bayesian hierarchical regression models using the probabilistic programming language [Stan](https://mc-stan.org/) by studying the fatigue data set in Glavind et al. (2020). Moreover, the concept of Bayesian model averaging is introduced as a means for making inferences for new out-of-sample fatigue sensitive details. 
 
 ## Bayesian networks
 
@@ -32,30 +58,6 @@ The toolboxes are among others used in Glavind and Faber (2018), and Glavind and
 
 - [Bayesian networks - inference for discrete Bayesian networks](https://nbviewer.jupyter.org/github/SebastianGlavind/PhD-study/blob/master/Bayesian-networks/BNs_inference.ipynb). This tutorial demonstrates how to make inferences using general bn.fit objects; these objects may have be learned using the [`bnlearn`](https://www.bnlearn.com/) package alone or in combination with my toolboxes [`sLearningAndDiscretizationTools`](https://github.com/SebastianGlavind/PhD-study/blob/master/Bayesian-networks/Toolboxes/sLearningAndDiscretizationTools.R) and [ `pLearningTools`](https://github.com/SebastianGlavind/PhD-study/blob/master/Bayesian-networks/Toolboxes/pLearningTools.R), which are wrappers for the `bnlearn` package. For this tutorial we will use the inference functionalities of the `bnlearn` package, as well as the [`gRain`](http://people.math.aau.dk/~sorenh/software/gR/) package to make maximum a-posteriori inferences, as well as posterior inferences that account for parameter uncertainties. 
 
-## Linear regression
-
-The following tutorials are implemented in Python;
-
-- [Linear regression](https://nbviewer.jupyter.org/github/SebastianGlavind/Probabilistic_modeling_and_analysis/blob/main/Linear-regression/LinReg.ipynb). This tutorial introduces linear regression; first, from a maximum likelihood estimation (MLE) perspective, and second, from a Bayesian perspective. In both cases, the tutorial implements a selection of different learning algorithms. 
-
-- [Linear regression - assumptions and interpretations](https://nbviewer.jupyter.org/github/SebastianGlavind/PhD-study/blob/master/Linear-regression/LinReg_assumptionsEtc.ipynb). This notebook considers and assesses the underlaying assumptions of linear regression in detail and discusses the interpretation of these models. 
-
-- [Bayesian linear regression with Stan](https://nbviewer.jupyter.org/github/SebastianGlavind/PhD-study/blob/master/Linear-regression/exStan_BayesLinReg.ipynb). This tutorial shows how to implement Bayesian linear regression models using the probabilistic programming language [Stan](https://mc-stan.org/). 
-
-- [EM for Bayesian linear regression](https://nbviewer.jupyter.org/github/SebastianGlavind/PhD-study/blob/master/Linear-regression/exEM_BayesLinReg.ipynb). This tutorial considers how the expectation maximization (EM) algorithm may be used to learn a parameter setting for a Bayesian linear regression model.
-
-## Logistic regression
-
-The following tutorials are implemented in Python;
-
-- [Binary logistic regression](https://nbviewer.jupyter.org/github/SebastianGlavind/Probabilistic_modeling_and_analysis/blob/main/Logistic-regression/LogReg_Bin.ipynb). This tutorial introduces binary logistic regression from a maximum likelihood estimation (MLE) perspective and shows how to include regularization in the estimation to reduce overfitting.
-
-## Bayesian hierarchical models
-
-The following tutorials are implemented in Python;
-
-- [Bayesian hierarchical models with Stan](https://nbviewer.jupyter.org/github/SebastianGlavind/PhD-study/blob/master/Hierarchical-models/HierModel_OMAE2020.ipynb). This tutorial introduces how to implement Bayesian hierarchical regression models using the probabilistic programming language [Stan](https://mc-stan.org/) by studying the fatigue data set in Glavind et al. (2020). Moreover, the concept of Bayesian model averaging is introduced as a means for making inferences for new out-of-sample fatigue sensitive details. 
-
 ## Gaussian processes
 
 The following tutorials are implemented in Python;
@@ -84,11 +86,15 @@ The following tutorials are implemented in Python;
 
 - The reader interested in the mechanics of gradient boosting is referred to this great [blog post](https://blog.paperspace.com/gradient-boosting-for-classification/) by Vihar Kurama on the underlaying ideas and their implementation. 
 
+# Unsupervised learning
+
 ## Gaussian mixture models
 
 The following tutorials are implemented in Python;
 
 - [EM for Gaussian mixtures](https://nbviewer.jupyter.org/github/SebastianGlavind/PhD-study/blob/master/Gaussian-mixtures/exEM_GMMs.ipynb). This tutorial considers how Gaussian mixture models may be used for cluster analysis; it implements the expectation maximization (EM) learning algorithm, and introduces the evidence lower bound, as well as the Bayesian information criterion (BIC) and the integrated complete-data likelihood (ICL), for model selection.
+
+# Time series models
 
 ## State space models
 
@@ -103,6 +109,8 @@ The following tutorials are implemented in Python and R;
 - [Linear Gaussian state space models and Kalman filters](https://nbviewer.jupyter.org/github/SebastianGlavind/Probabilistic_modeling_and_analysis/blob/main/State-space-models/SSMs_linearGaussian_Ex_MassSpringSys.ipynb). This Python tutorial implements the Kalman filtering and smooting equations for Linear Gaussian state space models. Furthermore, the tutorial shows how to learn the parameters of such systems using maximum likelihood and Bayesian inference based on data (accelerations) from simple mass-spring systems. Finally, this [R-notebook](https://github.com/SebastianGlavind/Probabilistic_modeling_and_analysis/blob/main/State-space-models/SSMs_linearGaussian_Ex_MassSpringSys_R_dlm.ipynb) shows how one of the examples can be solved using the R package `dlm`.
 
 - [Model uncertainty in Linear Gaussian state space models](https://nbviewer.jupyter.org/github/SebastianGlavind/Probabilistic_modeling_and_analysis/blob/main/State-space-models/SSMs_linearGaussian_Ex_MassSpringSys_ModUnc.ipynb). This Python tutorial consideres the mass-spring-damper system from my tutorial [Linear Gaussian state space models and Kalman filters](https://nbviewer.jupyter.org/github/SebastianGlavind/Probabilistic_modeling_and_analysis/blob/main/State-space-models/SSMs_linearGaussian_Ex_MassSpringSys.ipynb). For this system, it shows how we may accound for uncertainty in the system representation itself and the loading using Monte Carlo simulation and Bayesian inference.
+
+# Inference
 
 ## Algorithms for optimization
 
@@ -123,6 +131,8 @@ The following tutorials are implemented in Python;
 - [Cange of variables in MCMC simulations](https://nbviewer.jupyter.org/github/SebastianGlavind/Probabilistic_modeling_and_analysis/blob/main/Approximate-inference/MCMC_ChangeOfVariables.ipynb). This tutorial shows how the variables in MCMC simulations can be transformed to comply with limiting supports, without introducing biases in the simulation. The key element here is the determinant of the Jacobian matrix for the transformation, which we defines for a set of common support limits and their combination.
 
 - [Hamiltonian Monte carlo - a basic tutorial](https://nbviewer.jupyter.org/github/SebastianGlavind/Probabilistic_modeling_and_analysis/blob/main/Approximate-inference/HMC.ipynb). This tutorial introduces the ideas behind the Hamiltonian Monte Carlo alogrithm and implement some basic variants of the algorithm, which are showcased in a linear regression setting.
+
+# Additional topics
 
 ## Sensitivity analysis and feature selection
 
