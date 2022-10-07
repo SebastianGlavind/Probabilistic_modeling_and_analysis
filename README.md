@@ -88,6 +88,12 @@ The following tutorials are implemented in Python;
 
 # Unsupervised learning
 
+## K-means clustering
+
+The following tutorials are implemented in Python;
+
+- [K-means algorithm](https://nbviewer.jupyter.org/github/SebastianGlavind/Probabilistic_modeling_and_analysis/blob/main/Kmeans/Kmeans.ipynb). This tutorial considers how the K-means algorithm may be used to find a given number latent clusters in a data set, as well as how to choose an appropriate number of clusters to consider for the data set.
+
 ## Gaussian mixture models
 
 The following tutorials are implemented in Python;
