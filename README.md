@@ -148,7 +148,7 @@ The following tutorials are implemented in Python;
 
 - Bayesian optimization using a Gaussian process prior for hyperparameter tuning, see the tutorials described above on [*Gradient boosting regression using XGBoost*](https://nbviewer.jupyter.org/github/SebastianGlavind/PhD-study/blob/master/Gradient-boosting/GBMReg_BostonHousing.ipynb) and [*Gradient boosting classification using XGBoost*](https://nbviewer.jupyter.org/github/SebastianGlavind/PhD-study/blob/master/Gradient-boosting/GBMClas_Wine.ipynb), respectively.
 
-## References
+# References
 <!-- *** -->
 Sebastian T. Glavind, Henning Brüske and Michael H. Faber, “On normalized fatigue crack growth modeling”, in proceedings of the ASME 2020 39th International Conference on Ocean, Offshore and Arctic Engineering (OMAE2020), OMAE2020-18613, 2020.
 
