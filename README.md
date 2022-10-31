@@ -60,6 +60,14 @@ The toolboxes are among others used in Glavind and Faber (2018), and Glavind and
 
 ## Gaussian processes
 
+The following toolboxes and tutorials are implemented in Python and R;
+
+### Toolboxes
+
+COMMING SOON (GPtools)
+
+### Tutorials
+
 The following tutorials are implemented in Python;
 
 - [An intuitive introduction to Gaussian processes - Gaussian processes as the generalization of Gaussian probability distributions](https://nbviewer.jupyter.org/github/SebastianGlavind/PhD-study/blob/master/Gaussian-processes/GPintro_intuitive.ipynb). In this tutorial, we will consider how to generalize the Gaussian probability distribution to infinite dimensions to approach the Gaussian process. The tutorial is intuitive in the sense that we will consider graphics instead of proofs to motivate the transition from the finite dimensional Gaussian probability distribution to the Gaussian process.
@@ -104,7 +112,7 @@ The following tutorials are implemented in Python;
 
 ## State space models
 
-The following tutorials are implemented in Python and R;
+The following toolboxes and tutorials are implemented in Python and R;
 
 ### Toolboxes
 
