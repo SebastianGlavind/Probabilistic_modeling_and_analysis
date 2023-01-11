@@ -182,5 +182,7 @@ pp. 021702, OMAE-19-1059, 2020.
 Sebastian T. Glavind and Michael H. Faber, “A framework for offshore load environment modeling”, in proceedings of the ASME 2018 37th International Conference on Ocean, Offshore and Arctic Engineering (OMAE2018), OMAE2018-77674, 2018.
 
 Shumway, R. H. & Stoffer, D. S. (2017). Time series analysis and its applications, Springer.
+
+Papaioannou, I., Betz, W., Zwirglmaier, K., & Straub, D. (2015). MCMC algorithms for subset simulation. Probabilistic Engineering Mechanics, 41, 89-103.
 <!-- *** -->
 
