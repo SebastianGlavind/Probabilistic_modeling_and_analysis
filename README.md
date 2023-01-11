@@ -64,7 +64,7 @@ The following toolboxes and tutorials are implemented in Python and R;
 
 ### Toolboxes
 
-COMMING SOON (GPtools)
+- [Gaussian process tools (GPtools)](https://github.com/SebastianGlavind/PhD-study/blob/master/Gaussian-processes/GPtools.py). This Python toolbox summarizes the algorithms used in the tutorials to perform exact GP inference.
 
 ### Tutorials
 
