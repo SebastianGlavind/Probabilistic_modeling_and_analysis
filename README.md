@@ -142,6 +142,10 @@ The following tutorials are implemented in Python;
 
 ### Monte Carlo methods
 
+#### Toolboxes
+
+#### Tutorials
+
 - [Metropolis-Hastings algorithm - a tutorial introduction](https://nbviewer.jupyter.org/github/SebastianGlavind/Probabilistic_modeling_and_analysis/blob/main/Approximate-inference/MCMC_MHintro.ipynb). This tutorial introduces and implements the fundamental Metropolis-Hastings alogrithm, as well as its independent-component variant, which is more suitable for high-dimentional problems.
 
 - [Change of variables in MCMC simulations](https://nbviewer.jupyter.org/github/SebastianGlavind/Probabilistic_modeling_and_analysis/blob/main/Approximate-inference/MCMC_ChangeOfVariables.ipynb). This tutorial shows how the variables in MCMC simulations can be transformed to comply with limiting supports, without introducing biases in the simulation. The key element here is the determinant of the Jacobian matrix for the transformation, which we defines for a set of common support limits and their combination.
