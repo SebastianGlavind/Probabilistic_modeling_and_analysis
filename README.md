@@ -26,7 +26,7 @@ The following tutorials are implemented in Python;
 
 The following tutorials are implemented in Python;
 
-- [Bayesian hierarchical models with Stan](https://nbviewer.jupyter.org/github/SebastianGlavind/PhD-study/blob/master/Hierarchical-models/HierModel_OMAE2020.ipynb). This tutorial introduces how to implement Bayesian hierarchical regression models using the probabilistic programming language [Stan](https://mc-stan.org/) by studying the fatigue data set in Glavind et al. (2020). Moreover, the concept of Bayesian model averaging is introduced as a means for making inferences for new out-of-sample fatigue sensitive details. 
+- [Bayesian hierarchical models with Stan](https://nbviewer.jupyter.org/github/SebastianGlavind/PhD-study/blob/master/Hierarchical-models/HierModel_OMAE2020.ipynb). This tutorial introduces how to implement Bayesian hierarchical regression models using the probabilistic programming language [*Stan*](https://mc-stan.org/) by studying the fatigue data set in Glavind et al. (2020). Moreover, the concept of Bayesian model averaging is introduced as a means for making inferences for new out-of-sample fatigue sensitive details. 
 
 ## Bayesian networks
 
