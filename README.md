@@ -174,6 +174,8 @@ The following tutorials are implemented in Python;
 
 - Bayesian optimization using a Gaussian process prior for hyperparameter tuning, see the tutorials described above on [*Gradient boosting regression using XGBoost*](https://nbviewer.jupyter.org/github/SebastianGlavind/PhD-study/blob/master/Gradient-boosting/GBMReg_BostonHousing.ipynb) and [*Gradient boosting classification using XGBoost*](https://nbviewer.jupyter.org/github/SebastianGlavind/PhD-study/blob/master/Gradient-boosting/GBMClas_Wine.ipynb), respectively.
 
+- Bayesian calibration of simulators. The following tutorials show to perform Baysian calibration for a SDOF mass-spring-damper system model using [*full Bayesin inference*](https://nbviewer.jupyter.org/github/SebastianGlavind/Probabilistic_modeling_and_analysis/blob/main/Tuning-selection/BayesianCalibration.ipynb), [*ABC rejection sampling*](https://nbviewer.jupyter.org/github/SebastianGlavind/Probabilistic_modeling_and_analysis/blob/main/Tuning-selection/BayesianCalibration_ABCrejection.ipynb), and [*ABC subset simulation*](SebastianGlavind/Probabilistic_modeling_and_analysis/blob/main/Tuning-selection/BayesianCalibration_ABCsubset.ipynb), respectively.
+
 # References
 <!-- *** -->
 Sebastian T. Glavind, Henning Brüske and Michael H. Faber, “On normalized fatigue crack growth modeling”, in proceedings of the ASME 2020 39th International Conference on Ocean, Offshore and Arctic Engineering (OMAE2020), OMAE2020-18613, 2020.
