@@ -156,6 +156,8 @@ The following tutorials are implemented in Python;
 
 - [Subset simulation for rare event sampling](https://nbviewer.jupyter.org/github/SebastianGlavind/Probabilistic_modeling_and_analysis/blob/main/Approximate-inference/SuS_aCS.ipynb). This tutorial introduces the ideas behind subset simulation for rare/extreme event sampling and solves some baseline examples from the literature using my subset simulation toolbox [`SuStools`](https://github.com/SebastianGlavind/Probabilistic_modeling_and_analysis/blob/main/Approximate-inference/SuStools.py).
 
+- *Approximate Bayesian computation (ABC) - an introduction*. COMMING SOON
+
 # Additional topics
 
 ## Sensitivity analysis and feature selection
